@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 
 import close from '../assets/close.svg';
 
+<<<<<<< HEAD
 const Home = ({ home, provider, account, escrow, togglePop }) => {
     const [hasBought, setHasBought] = useState(false)
     const [hasLended, setHasLended] = useState(false)
@@ -187,6 +188,13 @@ const Home = ({ home, provider, account, escrow, togglePop }) => {
                 </button>
             </div>
         </div >
+=======
+const Home = ({ home, provider, escrow, togglePop }) => {
+
+    return (
+        <div className="home">
+        </div>
+>>>>>>> aliswork
     );
 }
 
